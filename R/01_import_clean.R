@@ -1,5 +1,3 @@
-# install.packages("haven") #Use haven to read .dta file
-
 library(haven)
 
 main = read_dta("data_raw/rore_public_main.dta")
